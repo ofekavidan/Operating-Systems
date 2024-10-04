@@ -8,12 +8,17 @@ A system call (syscall).
 The project focuses on the overhead introduced by virtualization and containerization, which are becoming increasingly important in modern computing environments. The static library libosm.a provides functions to calculate the average time taken for these operations over multiple iterations.
 
 Results
+
 The execution times (in nanoseconds) for each operation on different platforms are summarized below:
 
 Platform/Operation	Operation (ns)	Empty Function (ns)	SysCall (ns)
+
 Linux	0.3333	3.6667	716.167
+
 VM	6.1667	12.3333	694
+
 Container	0.3333	1.3333	705.8333
+
 From the results, we observe the following trends:
 
 Linux performs the fastest in basic operations and function calls, though system calls are slightly slower compared to containers.
