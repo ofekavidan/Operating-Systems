@@ -1,6 +1,6 @@
 # OSM Project: Measuring the Costs of Operations, Function Calls, and System Calls in Different Platforms
-# Project Overview
-# This project explores the performance of various operations in different environments (Linux, Virtual Machine, and Container) by measuring the time it takes to execute:
+## Project Overview
+This project explores the performance of various operations in different environments (Linux, Virtual Machine, and Container) by measuring the time it takes to execute:
 
 A simple addition operation.
 An empty function call.
